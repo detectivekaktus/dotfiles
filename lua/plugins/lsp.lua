@@ -16,8 +16,48 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
       local lspconfig = require("lspconfig")
-      lspconfig.lua_ls.setup({})
+
+      -- Language servers
+      lspconfig.lua_ls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.bashls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.clangd.setup({
+        capabilities = capabilities
+      })
+      lspconfig.cssls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.dockerls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.gopls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.html.setup({
+        capabilities = capabilities
+      })
+      lspconfig.jsonls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.tsserver.setup({
+        capabilities = capabilities
+      })
+      lspconfig.autotools_ls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.marksman.setup({
+        capabilities = capabilities
+      })
+      lspconfig.pyright.setup({
+        capabilities = capabilities
+      })
+
+      -- General keymaps for the built-in neovim lsp client.
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})

@@ -8,5 +8,5 @@ vim.cmd("set shiftwidth=2")
 vim.g.mapleader = " "
 
 -- Buffers
-vim.keymap.set("n", "<leader>sp", ":sp<CR>", {})
-vim.keymap.set("n", "<leader>vsp", ":vsp<CR>", {})
+vim.keymap.set("n", "<leader>vs", ":sp<CR>", {})
+vim.keymap.set("n", "<leader>vvs", ":vsp<CR>", {})

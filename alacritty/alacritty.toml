@@ -1,42 +1,42 @@
 [colors.primary]
-background = "0x272c35"
-foreground = "0xaab2c0"
+background = "0x100f13"
+foreground = "0xf0dcdc"
 
 [colors.normal]
-black   = "0x1e2127"
-red     = "0xe06c75"
-green   = "0x98c379"
-yellow  = "0xd19a66"
-blue    = "0x61afef"
-magenta = "0xc678dd"
-cyan    = "0x56b6c2"
-white   = "0x828791"
+black   = "0x585858"
+red     = "0xe04545"
+green   = "0x75a850"
+yellow  = "0xee9a4d"
+blue    = "0x2f77c1"
+magenta = "0x9d33bd"
+cyan    = "0x37b1c9"
+white   = "0xf0dcdc"
 
 [colors.bright]
-black   = "0x5c6370"
-red     = "0xf88189"
-green   = "0xb2de92"
-yellow  = "0xebb27d"
-blue    = "0x79c5ff"
-magenta = "0xe393fa"
-cyan    = "0x79d8e4"
-white   = "0xe6efff"
+black   = "0x848484"
+red     = "0xe27b7b"
+green   = "0xa8cf8b"
+yellow  = "0xe1b287"
+blue    = "0x6d99c6"
+magenta = "0xb863d2"
+cyan    = "0x6dc5d6"
+white   = "0xc8bfbf"
 
 [font]
 size = 10.0
 
 [font.bold]
-family = "JetBrainsMonoNerdFontMono"
+family = "IosevkaNerdFont"
 style = "ExtraBold"
 
 [font.bold_italic]
-family = "JetBrainsMonoNerdFontMono"
+family = "IosevkaNerdFont"
 style = "ExtraBold Italic"
 
 [font.italic]
-family = "JetBrainsMonoNerdFontMono"
+family = "IosevkaNerdFont"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMonoNerdFontMono"
+family = "IosevkaNerdFont"
 style = "Regular"

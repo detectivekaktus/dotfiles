@@ -1,6 +1,6 @@
----------------------------
--- Default awesome theme --
----------------------------
+------------------------------------
+-- DetectiveKaktus' awesome theme --
+------------------------------------
 
 local theme_assets = require("beautiful.theme_assets")
 local xresources = require("beautiful.xresources")
@@ -11,21 +11,21 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "JetBrainsMonoNerdFontMono 8"
+theme.font          = "IosevkaNerdFont 8"
 
-theme.bg_normal     = "#272c35"
-theme.bg_focus      = "#6c819e"
-theme.bg_urgent     = "#ebbf6f"
-theme.bg_minimize   = "#20252c"
+theme.bg_normal     = "#1f1e24"
+theme.bg_focus      = "#2e2b3e"
+theme.bg_urgent     = "#221855"
+theme.bg_minimize   = "#1f1e24"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#aab2c0"
+theme.fg_normal     = "#f0dcdc"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(4)
-theme.border_width  = dpi(1)
+theme.useless_gap   = dpi(7)
+theme.border_width  = dpi(0)
 theme.border_normal = "#272c35"
 theme.border_focus  = "#6c819e"
 theme.border_marked = "#91231c"

@@ -10,3 +10,8 @@ vim.g.mapleader = " "
 -- Buffers
 vim.keymap.set("n", "<leader>vs", ":sp<CR>", {})
 vim.keymap.set("n", "<leader>vvs", ":vsp<CR>", {})
+
+vim.api.nvim_set_keymap("n", "<Up>", "<Nop>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Down>", "<Nop>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Left>", "<Nop>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Right>", "<Nop>", { noremap = true })

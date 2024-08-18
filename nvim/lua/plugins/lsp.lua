@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "bashls", "cssls", "dockerls", "gopls", "html", "jsonls", "tsserver", "autotools_ls", "marksman", "pyright" }
+        ensure_installed = { "bashls", "gopls", "html", "jsonls", "tsserver", "pyright" }
       })
     end
   },
@@ -20,16 +20,7 @@ return {
       local lspconfig = require("lspconfig")
 
       -- Language servers
-      lspconfig.lua_ls.setup({
-        capabilities = capabilities
-      })
       lspconfig.bashls.setup({
-        capabilities = capabilities
-      })
-      lspconfig.cssls.setup({
-        capabilities = capabilities
-      })
-      lspconfig.dockerls.setup({
         capabilities = capabilities
       })
       lspconfig.gopls.setup({
@@ -42,12 +33,6 @@ return {
         capabilities = capabilities
       })
       lspconfig.tsserver.setup({
-        capabilities = capabilities
-      })
-      lspconfig.autotools_ls.setup({
-        capabilities = capabilities
-      })
-      lspconfig.marksman.setup({
         capabilities = capabilities
       })
       lspconfig.pyright.setup({

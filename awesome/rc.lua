@@ -326,8 +326,8 @@ globalkeys = gears.table.join(
               end,
               {description = "lua execute prompt", group = "awesome"}),
     -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
+    awful.key({ modkey }, "p", function() awful.spawn.with_shell("scrot") end,
+              {description = "take a screenshot", group = "launcher"})
 )
 
 clientkeys = gears.table.join(
@@ -563,5 +563,4 @@ end)
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 
-awful.spawn.with_shell("nitrogen --restore")
-awful.spawn.with_shell("picom --config ~/.config/picom/picom.conf")
+awful.spawn.with_shell("feh --bg-scale ~/images/wallpapers/thewitness_waterfall.jpg")

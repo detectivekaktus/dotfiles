@@ -24,7 +24,7 @@ theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(7)
+theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(0)
 theme.border_normal = "#272c35"
 theme.border_focus  = "#6c819e"
@@ -127,5 +127,3 @@ theme.awesome_icon = theme_assets.awesome_icon(
 theme.icon_theme = nil
 
 return theme
-
--- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80

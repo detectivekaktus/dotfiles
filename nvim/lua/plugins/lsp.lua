@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "bashls", "gopls", "html", "jsonls", "tsserver", "pyright" }
+        ensure_installed = { "bashls", "gopls", "html", "jsonls", "ts_ls", "pyright" }
       })
     end
   },
@@ -32,7 +32,7 @@ return {
       lspconfig.jsonls.setup({
         capabilities = capabilities
       })
-      lspconfig.tsserver.setup({
+      lspconfig.ts_ls.setup({
         capabilities = capabilities
       })
       lspconfig.pyright.setup({

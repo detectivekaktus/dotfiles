@@ -39,7 +39,6 @@ return {
         capabilities = capabilities
       })
 
-      -- General keymaps for the built-in neovim lsp client.
       vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})

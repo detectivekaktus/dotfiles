@@ -23,13 +23,14 @@ vim.api.nvim_set_keymap("i", "<Left>", "<Nop>", { noremap = true })
 vim.api.nvim_set_keymap("i", "<Right>", "<Nop>", { noremap = true })
 vim.opt.mouse = ""
 
+-- ^WH flip the windows
+-- ^WT put the buffer in a new tab
 vim.keymap.set("n", "<leader>vs", ":sp<CR>", { noremap = true })
 vim.keymap.set("n", "<leader>vvs", ":vsp<CR>", { noremap = true })
-
-vim.api.nvim_set_keymap("n", "<leader>tb", ":tabnew<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "<leader>tbc", ":tabclose<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "<leader>tt", ":tabnext<CR>", { noremap = true })
-
+vim.keymap.set("n", "<leader>H", ":vertical resize +5<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>J", ":horizontal resize -2<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>K", ":horizontal resize +2<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>L", ":vertical resize -5<CR>", { noremap = true })
 
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

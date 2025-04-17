@@ -1,3 +1,4 @@
+vim.cmd.colorscheme("kvim")
 vim.api.nvim_set_option("clipboard", "unnamedplus")
 
 vim.cmd("set number")
@@ -32,7 +33,6 @@ vim.keymap.set("n", "<leader>J", ":horizontal resize -2<CR>", { noremap = true }
 vim.keymap.set("n", "<leader>K", ":horizontal resize +2<CR>", { noremap = true })
 vim.keymap.set("n", "<leader>L", ":vertical resize -5<CR>", { noremap = true })
 
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   vim.fn.system({
@@ -46,3 +46,5 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
+
+-- TODO: LSP support for certain languages: Python, Go

@@ -13,8 +13,8 @@ local colors = {
   warning     = "#d9d570",
   error       = "#dc5c5c",
 
-  kword       = "#20b9e5",
-  kwordbright = "#58d8fc",
+  kword       = "#bb70d2",
+  kwordbright = "#d997ed",
 
   str         = "#8fb573",
 

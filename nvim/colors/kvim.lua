@@ -24,6 +24,8 @@ local colors = {
   selected    = "#3d3d42",
 
   comment     = "#7a543d",
+
+  dir         = "#20b9e5",
 }
 
 
@@ -41,7 +43,7 @@ set(0, "Statement", { fg = colors.kword, bold = true })
 set(0, "Function", { fg = colors.fg })
 set(0, "Comment", { fg = colors.comment })
 
-set(0, "Directory", { fg = colors.kword, bold = true })
+set(0, "Directory", { fg = colors.dir, bold = true })
 
 set(0, "CurSearch", { fg = colors.bg, bg = colors.kwordbright })
 set(0, "Substitute", { fg = colors.fg, bg = colors.typedim })

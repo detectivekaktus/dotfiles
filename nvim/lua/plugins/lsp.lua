@@ -35,6 +35,9 @@ return {
       conf.html.setup({
         capabilities = caps
       })
+      conf.emmet_language_server.setup({
+        capabilities = caps
+      })
       conf.cssls.setup({
         capabilities = caps
       })

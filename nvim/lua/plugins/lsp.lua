@@ -27,7 +27,7 @@ return {
           }
         }
       })
-      conf.denols.setup({
+      conf.ts_ls.setup({
         capabilities = caps
       })
 
@@ -45,6 +45,8 @@ return {
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.declaration, {})
       vim.keymap.set("n", "<leader>gD", vim.lsp.buf.definition, {})
       vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
+      vim.keymap.set({ "n", "v" }, "<leader>e", ":lua vim.diagnostic.open_float(0, {scope=\"line\"})<CR>", {})
+
     end
   },
 

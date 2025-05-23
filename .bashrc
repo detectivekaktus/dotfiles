@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-alias startgres="systemctl start postgresql"
-alias stopgres="systemctl stop postgresql"
+alias startgres="sudo systemctl start postgresql"
+alias stopgres="sudo systemctl stop postgresql"
 
 fastfetch

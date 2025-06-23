@@ -16,7 +16,7 @@ theme.font          = "IosevkaNerdFont 8"
 theme.bg_normal     = "#1f1e24"
 theme.bg_focus      = "#2e2b3e"
 theme.bg_urgent     = "#221855"
-theme.bg_minimize   = "#1f1e24"
+theme.bg_minimize   = "#2f2d38"
 theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#f0dcdc"

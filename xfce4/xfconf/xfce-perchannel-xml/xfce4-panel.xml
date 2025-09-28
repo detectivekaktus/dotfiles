@@ -59,6 +59,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="TelegramDesktop"/>
         <value type="string" value="steam"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="spotify-client"/>
@@ -108,16 +109,16 @@
         <value type="string" value="steam.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="code.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="gimp.desktop"/>
         <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="docker-desktop.desktop"/>
+        <value type="string" value="code.desktop"/>
         <value type="string" value="steam.desktop"/>
+        <value type="string" value="gimp.desktop"/>
         <value type="string" value="discord.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="xfce-settings-manager.desktop"/>
-        <value type="string" value="thunar.desktop"/>
-        <value type="string" value="xfce-mouse-settings.desktop"/>
+        <value type="string" value="org.telegram.desktop.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="xfce4-settings-editor.desktop"/>
       </property>
     </property>
   </property>
